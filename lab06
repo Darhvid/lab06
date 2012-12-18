@@ -1,0 +1,6 @@
+grep . plik.txt
+grep -r '^[0-9]' pl*
+grep -E '^.{8}r.' *
+grep -w bash /etc/passwd | wc -l
+grep -i -E "\b([C\I\X\L\C]+\b" plik.txt
+
